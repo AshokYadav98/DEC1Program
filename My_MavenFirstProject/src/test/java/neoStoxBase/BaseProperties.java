@@ -21,6 +21,14 @@ public class BaseProperties
 		driver.manage().window().maximize();
 		
 	    driver.get(UtilityProperties.ReadDataFromPropertyFile("url"));
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
 		Reporter.log("Launching the browser ", true);
 		
 		Thread.sleep(1000);
