@@ -20,6 +20,19 @@ public class BaseProperties
 		
 		driver.manage().window().maximize();
 		
+		
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		
+		
 	    driver.get(UtilityProperties.ReadDataFromPropertyFile("url"));
 	    
 	    
@@ -31,7 +44,7 @@ public class BaseProperties
 	    
 		Reporter.log("Launching the browser ", true);
 		
-		Thread.sleep(1000);
+		
 		
 		
 		
