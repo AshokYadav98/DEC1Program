@@ -1,0 +1,9 @@
+package SerialANDparralelExecutionStudy;
+
+import org.testng.annotations.Test;
+
+public class serialExecusion {
+  @Test
+  public void f() {
+  }
+}

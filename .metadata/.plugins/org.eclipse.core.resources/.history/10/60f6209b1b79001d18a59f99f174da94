@@ -1,0 +1,9 @@
+package SoftAssertUse;
+
+import org.testng.annotations.Test;
+
+public class softassertRevision {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,22 @@
+package logicalprogrampractice;
+
+public class ReverseTheNumberwithString {
+
+	public static void main(String[] args) 
+	{
+		int a=3456;
+		
+		String stringNum = Integer.toString(a);
+		
+		String reverse="";
+		
+		for(int i=stringNum.length()-1;i>=0;i--)
+		{
+			char t = stringNum.charAt(i);
+			
+			reverse=reverse+t;
+		}
+		System.out.println(reverse);
+	}
+
+}

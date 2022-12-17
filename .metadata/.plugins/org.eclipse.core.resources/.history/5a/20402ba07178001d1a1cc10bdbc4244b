@@ -1,0 +1,9 @@
+package CrossBrowserStudy;
+
+import org.testng.annotations.Test;
+
+public class crossBrowserTesting {
+  @Test
+  public void f() {
+  }
+}
