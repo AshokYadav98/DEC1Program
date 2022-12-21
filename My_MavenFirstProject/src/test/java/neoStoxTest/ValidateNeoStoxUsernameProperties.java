@@ -34,6 +34,7 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
 	
 	
 	
+	
 	@BeforeClass
 	public void LaunchBrowser() throws InterruptedException, EncryptedDocumentException, IOException
 	{
@@ -59,6 +60,10 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
 	    pass.enter4digitpin(driver,UtilityProperties.ReadDataFromPropertyFile("password"));
 	    Thread.sleep(1000);
 	    pass.Clickonsubmitbutton(driver);
+	    
+	    
+	    
+	    
 	    
 	    Thread.sleep(1000);
 	    home.HandelPopUp(driver);
